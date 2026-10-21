@@ -1,7 +1,10 @@
 import telebot
 from telebot import types
 
-TOKEN = "8626299706:AAFRZmzmqLoTU47LwFpCDB_JNg5p3z99k9c"
+TOKEN = (
+    "8626299706:"
+    "AAFRZmzmqLoTU47LwFpCDB_JNg5p3z99k9c"
+)
 ADMIN_ID = 6607602685
 
 bot = telebot.TeleBot(TOKEN)
@@ -71,3 +74,4 @@ def get_phone(message):
 if __name__ == '__main__':
     print("Бот успешно запущен!")
     bot.infinity_polling(skip_pending=True)
+ 
